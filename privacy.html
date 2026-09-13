@@ -30,7 +30,7 @@
 <body>
 <main>
   <h1>Norme sulla privacy</h1>
-  <p class="data">Content Studio — in vigore dal 10 settembre 2026</p>
+  <p class="data">Content Studio — in vigore dal 13 settembre 2026</p>
 
   <p>
     Content Studio è un'applicazione personale che gira in locale sul computer del suo
@@ -42,15 +42,15 @@
   <p>L'applicazione conserva, sul computer su cui gira:</p>
   <ul>
     <li>i contenuti che produce (testi, audio, video, immagini) e i relativi argomenti;</li>
-    <li>i token di accesso rilasciati da Google quando il titolare autorizza il
-      caricamento sul proprio canale YouTube, <strong>cifrati a riposo</strong>;</li>
-    <li>l'identificativo e il nome del canale collegato, per mostrare a quale canale si
-      sta pubblicando;</li>
+    <li>i token di accesso rilasciati da Google e da TikTok quando il titolare autorizza
+      il caricamento sui propri account, <strong>cifrati a riposo</strong>;</li>
+    <li>l'identificativo, il nome, il nome utente e l'immagine del profilo collegato
+      (canale YouTube o account TikTok), per mostrare su quale account si sta pubblicando;</li>
     <li>l'esito di ogni pubblicazione (data, indirizzo del video, eventuale errore).</li>
   </ul>
   <p>
-    Non tratta dati di spettatori, iscritti o terzi, e non accede a dati personali di
-    utenti YouTube diversi dal titolare del canale collegato.
+    Non tratta dati di spettatori, iscritti, follower o terzi, e non accede a dati
+    personali di utenti diversi dal titolare degli account collegati.
   </p>
 
   <h2>Uso dei dati di YouTube</h2>
@@ -65,13 +65,28 @@
     vendute né condivise con terzi, e non vengono usate per profilazione o pubblicità.
   </p>
 
+  <h2>Uso dei dati di TikTok</h2>
+  <p>
+    L'applicazione usa Login Kit e la Content Posting API di TikTok, con i permessi per
+    leggere le informazioni di base del profilo (<code>user.info.basic</code>,
+    <code>user.info.profile</code>) e per inviare video fra le bozze
+    (<code>video.upload</code>). Si applicano i
+    <a href="https://www.tiktok.com/legal/terms-of-service">Termini di servizio</a> e l'<a href="https://www.tiktok.com/legal/privacy-policy">informativa sulla privacy</a> di TikTok.
+  </p>
+  <p>
+    Le informazioni ottenute da TikTok sono usate esclusivamente per inviare i video
+    all'account del titolare e mostrare su quale account si sta pubblicando. Non vengono
+    cedute, vendute né condivise con terzi, e non vengono usate per profilazione o pubblicità.
+  </p>
+
   <h2>Revoca dell'accesso</h2>
   <p>
     L'autorizzazione può essere revocata in qualsiasi momento da
     <a href="https://myaccount.google.com/permissions">Account Google → Le tue connessioni ad app e servizi</a>.
     Alla revoca l'applicazione perde ogni possibilità di accedere al canale; i token
     conservati localmente diventano inutilizzabili e possono essere cancellati
-    rimuovendo il collegamento nell'applicazione.
+    rimuovendo il collegamento nell'applicazione. Per TikTok l'accesso si revoca dalle
+    impostazioni dell'app (Impostazioni e privacy → Sicurezza → App e servizi).
   </p>
 
   <h2>Conservazione</h2>
@@ -102,7 +117,7 @@
     <a href="https://github.com/1997giaquinto/content-studio-pages/issues">repository di queste pagine</a>.
   </p>
 
-  <footer><a href="index.html">← Content Studio</a></footer>
+  <footer><a href="index.html">← Content Studio</a> · <a href="terms.html">Termini di servizio</a></footer>
 </main>
 </body>
 </html>
